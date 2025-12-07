@@ -1,0 +1,21 @@
+# Python / venv
+__pycache__/
+*.py[cod]
+.venv/
+.env
+
+# OS junk
+.DS_Store
+
+# Model outputs / checkpoints / logs
+model_output/
+model_output_finetuned/
+output/
+training_log.txt
+*.log
+
+# Notebook and cache artifacts
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+

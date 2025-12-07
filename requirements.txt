@@ -1,0 +1,31 @@
+# Wymagane zależności dla generatora danych, treningu i ewaluacji
+# Instalacja: pip install -r requirements.txt
+
+# Progress bar
+tqdm>=4.0.0
+
+# Analiza wyników i eksport
+pandas>=1.5.0
+
+# ============================================
+# Trening HerBERT NER
+# ============================================
+
+# Transformers i PyTorch
+transformers>=4.30.0
+torch>=2.0.0
+datasets>=2.14.0
+
+# Zależności tokenizera HerBERT
+sacremoses>=0.0.53
+protobuf>=3.20.0
+
+# Metryki NER
+seqeval>=1.2.2
+
+# Akceleracja treningu (opcjonalne)
+accelerate>=0.20.0
+
+# Logowanie eksperymentów (opcjonalne)
+# wandb>=0.15.0
+# tensorboard>=2.13.0
