@@ -1,4 +1,4 @@
-## Uruchamianie (katalog `no-jak-to-nie-to-nie-wiem copy/nask_train`)
+## Uruchamianie
 
 ### Wymagania
 - Python 3.9+
